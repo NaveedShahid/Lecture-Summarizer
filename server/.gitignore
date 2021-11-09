@@ -1,0 +1,6 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/stanford-corenlp-4.2.0
+/auxiliary_data/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5
+/stanford-corenlp-4.2.0.zip
