@@ -1,5 +1,5 @@
 # Lecture-Summarizer
-Summarize a live audio lecture, a text file or an audio file using BART transformer model.  
+Summarize a live audio lecture, a text file or an audio file using BART transformer model. Keypoints and Keywords are extracted using [SIFRank Algorithm](https://github.com/sunyilgdx/SIFRank)
 
 ![Alt Text](https://github.com/NaveedShahid/Lecture-Summarizer/blob/main/client/public/text-summarize.gif)  
 
