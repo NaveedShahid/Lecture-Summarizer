@@ -1,5 +1,7 @@
 # Lecture-Summarizer
-Summarize a live audio lecture, a text file or an audio file using BART transformer model.
+Summarize a live audio lecture, a text file or an audio file using BART transformer model.  
+
+![Alt Text](https://github.com/NaveedShahid/Lecture-Summarizer/blob/main/client/public/text-summarize.gif)  
 
 1. Install linux packages
 2. ``$ sudo apt-get install ffmpeg``  
@@ -22,7 +24,9 @@ Summarize a live audio lecture, a text file or an audio file using BART transfor
 ``npm install``   
 14. This command requires node.js installed
 15. After npm install finishes, open a react front-end in the default browser by running   
-``npm start``
+``npm start``  
+![Alt Text](https://github.com/NaveedShahid/Lecture-Summarizer/blob/main/client/public/client.gif)    
+
 17. To start the Flask backend, cd to the server directory and run   
 ``python app.py`` 
 
@@ -30,7 +34,10 @@ Summarize a live audio lecture, a text file or an audio file using BART transfor
 
 19. The server stores the transcripts and summaries in a MongoDB database. Make sure MongoDB is installed. Run   
 ``mongo``  
-in cmd to start MongoDB server.
+in cmd to start MongoDB server.  
+
+![Alt Text](https://github.com/NaveedShahid/Lecture-Summarizer/blob/main/client/public/mongo.gif)    
+
 21. Try out the Lecture Summarizer  
 
 **Note**: For summarizing an audio file or live audio, the google API credentials need to be replaced with working ones. More info at [GCP Speech-to-text](https://console.cloud.google.com/speech)
