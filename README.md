@@ -25,6 +25,9 @@ Summarize a live audio lecture, a text file or an audio file using BART transfor
 ``npm start``
 17. To start the Flask backend, cd to the server directory and run   
 ``python app.py`` 
+
+![Alt Text](https://github.com/NaveedShahid/Lecture-Summarizer/blob/main/client/public/client.gif)
+
 19. The server stores the transcripts and summaries in a MongoDB database. Make sure MongoDB is installed. Run   
 ``mongo``  
 in cmd to start MongoDB server.
