@@ -259,13 +259,13 @@ const anime = require('animejs');
 
   return (
     <>
-      <p className='header'>Transcripting App</p>
+      <p className='header'>Lecture Summarizer</p>
 
       <Container>
         <Row>
           <Col xs={12} md={6}>
             <p className='left-section-content'>
-              Start Recording Now To Generate Transcripts
+              Start Recording Now To Generate Summaries
             </p>
             <p className='left-section-content lsc-child'>OR</p>
             <div className='left-section-upload-container'>
@@ -311,7 +311,7 @@ const anime = require('animejs');
                   onClick={() => audioSubmitHandler()}
                   className='btn-1 audio-btn'
                 >
-                  Start Transcribing
+                  Start Summarizing
                 </button>
               </div>
             </div>
@@ -395,7 +395,7 @@ const anime = require('animejs');
           </Col>
           <Col xs={12}>
             <div className='text-list-header'>
-              <p>Transcribed Text Files</p>
+              <p>Summarized Text Files</p>
             </div>
           </Col>
           <Col className='text-list-container' xs={12}>
